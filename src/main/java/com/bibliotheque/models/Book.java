@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class Book {
 
-    private int id;
+    private int id1;
     private String srial_Number;
     private String title;
     private String name_Of_Author;
@@ -13,8 +13,8 @@ public class Book {
 
    public Book(){}
 
-   public Book (int id, String srial_Number, String title,String name_Of_Author, int number_Copies_Availble, LocalDate date_added){
-        this.id = id;
+   public Book (int id1, String srial_Number, String title,String name_Of_Author, int number_Copies_Availble, LocalDate date_added){
+        this.id1 = id1;
         this.srial_Number = srial_Number;
         this.number_Copies_Availble = number_Copies_Availble;
         this.title = title;
@@ -24,11 +24,11 @@ public class Book {
 // Setters and Getters
 
     public int getId() {
-        return id;
+        return id1;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setId(int id1) {
+        this.id1 = id1;
     }
 
     public String getSrial_Number() {
